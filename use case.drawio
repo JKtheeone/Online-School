@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T15:00:21.500Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="7ZcYWCFLn0mNKMCctFEA" version="15.2.9" type="device"><diagram id="e25jnOVaxKvHYC8yiLxX" name="Page-1">7VtLj+I4EP41HLeVOO8j4TG70qzUWg4zu7c0eCCjEEfGNDC/fp3EdipP6B4gadQXy65UKom/8ldVNoyMyfb4hQbJ5m+ywtEIaavjyJiOEHJtl7ep4JQLTBflgjUNV7lILwSL8BcWQk1I9+EK70qKjJCIhUlZuCRxjJesJAsoJYey2g8SlZ+aBGtcEyyWQVSXfgtXbCM+CzmF/E8crjfyybrt5Ve2gVQWX7LbBCtyACJjNjImlBCW97bHCY7SuZPzkt83b7mqXozimF1yw4//NofFYfnXCX2LX//xpnGw+PWHNLNjJ/nFeMUnQAwJZRuyJnEQzQqpT8k+XuHUrMZHhc5XQhIu1LnwJ2bsJNAM9oxw0YZtI3EVH0P2Pb39ybHE8N9sKC9Oj8J4NjiBwTOm4RYzTKUsZvT0HQ5yS5YcFqaykbRVnz05E2RPl7hjyqQXBnSNWYeeneul0wkeILD5ggn/CnriChRHAQtfy/4WCLddK70CWd4R4L4FaNQn0DpA+ZEwdq6NcXbrmNLgBBQSEsZsByw/pwKuIEgWaYJiTpKEtIq/5BYL71Gv9n6HEh/xGkR78VkjPunefMQBdrW071tZO8/aWdaaWZtfRbLP9RHQ97PWrbkr588k7e630XjJCHcO/xVTFnKu/hq84OiZ7EIWkpirvBDGyBYojKNwnV5gqd9CByV7FoUxnqjo0ek3qTl87ERaXrXLkFhieChiiClEGxA+XO1Wy9/45Pk3cgC6kAPcYfG8+cnz18fYGyTPSwq5Kc+jZp7P+VzP2NvIWgfw+SxrPcHkgtu5JNefPxa3627f5G59kvsbF75x4cKXZehQ2N3uF+ky0NYjAa0PC2jnM4zfAGQ0yDhueJWdm6q+0al/m7hvNMb9MQLRPK/XpjLKqxxAxXreH5dyAGQH2zRKxy+7JEPcjjhe/gvlvXXaA9WjJjOMvHpUVeIUWBw/Yq1ooL7zifqEftR84sm07DILacg7w0PZqGry/eRkXkpOxiDISWWzcudCvFcbOVX1TaebzAzN6NK/URHjPYxH3yumXuy25qASJxkqP2qGfAfArGHyjH0mCUK/qe/eI2nq9Tjto6XtF3vs1Y9ZfotizMbM2HPKZxtgX+yhslNLs/rNTu3G6ffbNiStWtHA319r2bf0QC3TvWPJXzRMdunyPWxChhdJkLn6gQYVXK4AQbX+azhMUihBCMxbQeA0Q1A/+zNB9aaDGg6eAPqdMEEj6SOeWmrGOuQ6sJjfbIi+sDtpOoBUH+CCF/VFf0hO4PXtBG6rE9SPe8EyE5MPV90ceMNM1PVCbSrvOr9xAJ8N3S13DnW1w90GhG7TmcJ94fVaaZZPqF2bxDGAt3sLh7e+VNNryw4BBtYHuOxQw+bMfYGRRxJVZCDXdu+gVbDSgbJXIul3LcIZMArZV1KsMApfyBFeUaUBNCjoDb136Jt/dFOaSx+gabbD7dZisiWDolqggFEvhl7lYJe4oHKGs9FgSG7Qe/oljzHOh16zxq92k0uYIEoqOlc07wKzcLNfA3KY1kGdeUu61sE5Q4K69yRLbzqGUfM3A4vHbEIArrExyJO1wcZX89IpN6xbTXlTfQ+n/N21zFvLlI4c16+hPSwYLVTfJbgzjFYzSSKQa0BIVbZzlV+wtlGfsqB0PtLilHuuPfJhy9YD3CPQaxCdXZb1YtEs36IQVolpI7aoC88hIWlrt0OSD4t/teQ768Vfg4zZ/w==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-23T07:13:58.960Z" agent="5.0 (Windows)" etag="3U9RbE0OBx1VSjjXDviM" version="15.3.0" type="github">
+  <diagram id="e25jnOVaxKvHYC8yiLxX" name="Page-1">
+    <mxGraphModel dx="865" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-1" value="Преподаватели" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="50" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-2" value="Обучающиеся" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="180" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-3" value="Технические&amp;nbsp;&lt;br&gt;работники" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="320" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ibrE2urBBhUjbJtS3a53-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="fZhwSwcIy2WnvR9DnaSz-4" target="fZhwSwcIy2WnvR9DnaSz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-4" value="Завуч" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="730" y="85" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ibrE2urBBhUjbJtS3a53-5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="fZhwSwcIy2WnvR9DnaSz-6" target="fZhwSwcIy2WnvR9DnaSz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-6" value="обучение учащихся" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ibrE2urBBhUjbJtS3a53-6" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="fZhwSwcIy2WnvR9DnaSz-7" target="fZhwSwcIy2WnvR9DnaSz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-7" value="предоставление доп.&lt;br&gt;учебного материала" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="90" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ibrE2urBBhUjbJtS3a53-7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="fZhwSwcIy2WnvR9DnaSz-8" target="fZhwSwcIy2WnvR9DnaSz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-8" value="подача заявок на&amp;nbsp;&lt;br&gt;поступление" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="170" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ibrE2urBBhUjbJtS3a53-8" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="fZhwSwcIy2WnvR9DnaSz-9" target="fZhwSwcIy2WnvR9DnaSz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-9" value="оценка работы сервиса" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="230" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ibrE2urBBhUjbJtS3a53-9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="fZhwSwcIy2WnvR9DnaSz-10" target="fZhwSwcIy2WnvR9DnaSz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-10" value="доработка сайта на&amp;nbsp;&lt;br&gt;основе отзывов" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="310" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-11" value="отладка системы по&amp;nbsp;&lt;br&gt;обработке заявок" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="365" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ibrE2urBBhUjbJtS3a53-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="fZhwSwcIy2WnvR9DnaSz-12" target="fZhwSwcIy2WnvR9DnaSz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-12" value="поддержка функционирования&lt;br&gt;сайта" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="360" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-13" value="создание курса" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="50" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ibrE2urBBhUjbJtS3a53-2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="fZhwSwcIy2WnvR9DnaSz-14" target="fZhwSwcIy2WnvR9DnaSz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-14" value="составление учебного&lt;br&gt;плана" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="85" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ibrE2urBBhUjbJtS3a53-3" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="fZhwSwcIy2WnvR9DnaSz-15" target="fZhwSwcIy2WnvR9DnaSz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-15" value="выбор преподавателя&lt;br&gt;для курса" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ibrE2urBBhUjbJtS3a53-4" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="fZhwSwcIy2WnvR9DnaSz-17" target="fZhwSwcIy2WnvR9DnaSz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fZhwSwcIy2WnvR9DnaSz-17" value="добавление студентов&lt;br&gt;на курс" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="161" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ibrE2urBBhUjbJtS3a53-12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="fZhwSwcIy2WnvR9DnaSz-11" target="fZhwSwcIy2WnvR9DnaSz-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="330" as="sourcePoint" />
+            <mxPoint x="610" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
