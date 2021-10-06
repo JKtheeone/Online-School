@@ -8,22 +8,9 @@ using Microsoft.Extensions.Logging;
 namespace getone.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    [Route("/Teachers")]
+    public class TeachersController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
-        private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
-
-
-       [ApiController]
-        [Route("/Teachers")]
-        public class TeachersController : ControllerBase
 
         [HttpPost("Teachingstudents")]
         public string Teachingstudents(string str)
@@ -35,5 +22,6 @@ namespace getone.Controllers
         {
             return str;// предоставление дополнительного учебного материала
         }
-       
+
     }
+}
