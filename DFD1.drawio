@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T10:29:09.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="QI8-34WgceEaHCBPXUe4" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T11:58:50.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="hdQCQqLwCeFj3EwOwAH2" version="15.6.8" type="github">
   <diagram id="VBPDcZtL7kC2B4WqYLaT" name="Page-1">
-    <mxGraphModel dx="2031" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -181,7 +181,7 @@
         <mxCell id="RbfdTBoapyP24dZfY5AA-78" value="База учеников" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;" parent="1" vertex="1">
           <mxGeometry x="850" y="585" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3UsK5SWwI_iqP-hFdetK-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RbfdTBoapyP24dZfY5AA-86" target="3UsK5SWwI_iqP-hFdetK-21" edge="1">
+        <mxCell id="3UsK5SWwI_iqP-hFdetK-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RbfdTBoapyP24dZfY5AA-86" target="3UsK5SWwI_iqP-hFdetK-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RbfdTBoapyP24dZfY5AA-86" value="Выбор&amp;nbsp;&lt;br&gt;преподавателя&lt;br&gt;для курса" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
