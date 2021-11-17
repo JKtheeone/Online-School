@@ -1,27 +1,16 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace getone.Controllers
+namespace Group.Controllers
 {
     [ApiController]
-    [Route("/Students")]
-    public class StudentsController : ControllerBase
+    [Route("/Group")]
+    public class Group : ControllerBase
     {
-
-        [HttpPost("Filingapplication")]
-        public string Filingapplication(string str)
-        {
-            return str; // Подача заявок на поступление
-        }
-        [HttpPost("Serviceevaluation")]
-        public string Serviceevaluation(string str)
-        {
-            return str;// Оценка работы сервиса
-        }
         [HttpPost]
         public string Create(string str)
         {
@@ -42,6 +31,5 @@ namespace getone.Controllers
         {
             return str;
         }
-
     }
 }
