@@ -7,9 +7,9 @@ using Microsoft.Extensions.Logging;
 
 namespace getone.Domains
 {
-    public class Students
+    public class Student
     {
-        public int StudentID { get; set; }
+        public int StudentId { get; set; }
 
         public string FirstName { get; set; }
 
@@ -17,12 +17,14 @@ namespace getone.Domains
 
         public string Email { get; set; }
 
-        Students(int StudentID,string FirstName,string SecondName,string Email)
+        public Student() { }
+
+        public Student(int studentId,string firstName,string secondName,string email)
         {
-            this.StudentID = StudentID;
-            this.FirstName = FirstName;
-            this.SecondName = SecondName;
-            this.Email = Email;
+            StudentId = studentId;
+            FirstName = firstName;
+            SecondName = secondName;
+            Email = email;
         }
 
     }

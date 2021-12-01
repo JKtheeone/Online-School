@@ -7,20 +7,22 @@ using Microsoft.Extensions.Logging;
 
 namespace getone.Domains
 {
-    public class Feedback_Journal
+    public class FeedbackJournal
     {
-        public int RevID { get; set; }
+        public int RevId { get; set; }
 
-        public int StudentID { get; set; }
+        public int StudentId { get; set; }
 
         public string Category { get; set; }
 
+        public FeedbackJournal() { }
 
-        Feedback_Journal(int RevID, int StudentID, string Category)
+
+        public FeedbackJournal(int revId, int studentId, string category)
         {
-            this.RevID = RevID;
-            this.StudentID = StudentID;
-            this.Category = Category;
+            RevId = revId;
+            StudentId = studentId;
+            Category = category;
         }
 
     }

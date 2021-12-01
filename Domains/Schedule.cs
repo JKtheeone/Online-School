@@ -9,23 +9,25 @@ namespace getone.Domains
 {
     public class Schedule
     {
-        public int ScheduleID { get; set; }
+        public int ScheduleId { get; set; }
 
         public string Science { get; set; }
 
         public int NumOfHours { get; set; }
 
-        public int TeacherID { get; set; }
+        public int TeacherId { get; set; }
 
-        public int PlanID { get; set; }
+        public int PlanId { get; set; }
 
-        Schedule(int ScheduleID, string Science, int NumOfHours,int TeacherID,int PlanId)
+        public Schedule() { }
+
+        public Schedule(int scheduleId, string science, int numOfHours,int teacherId,int planId)
         {
-            this.ScheduleID = ScheduleID;
-            this.Science = Science;
-            this.NumOfHours = NumOfHours;
-            this.TeacherID = TeacherID;
-            this.PlanID = PlanId;
+            ScheduleId = scheduleId;
+            Science = science;
+            NumOfHours = numOfHours;
+            TeacherId = teacherId;
+            PlanId = planId;
         }
 
     }

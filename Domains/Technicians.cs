@@ -7,14 +7,18 @@ using Microsoft.Extensions.Logging;
 
 namespace getone.Domains
 {
-    public class Techicians
+    public class Techician
     {
-        public int WorkerID { get; set; }
+        public int WorkerId { get; set; }
 
+        publick string FullName { get; set }
 
-        Techicians(int WorkerID)
+        public Techician() { }
+
+        public Techician(int workerId , string fullname)
         {
-            this.WorkerID = WorkerID;
+            WorkerId = workerId;
+            FullName = fullname;
         }
 
     }

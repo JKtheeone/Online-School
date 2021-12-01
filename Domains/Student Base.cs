@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 
 namespace getone.Domains
 {
-    public class Student_Base
+    public class StudentBase
     {
         public string Email { get; set; }
 
@@ -15,11 +15,13 @@ namespace getone.Domains
 
         public int Group { get; set; }
 
-        Student_Base(string Email, string FullName, int Group)
+        public StudentBase() { }
+
+        public StudentBase(string email, string fullName, int group)
         {
-            this.Email = Email;
-            this.FullName = FullName;
-            this.Group = Group;
+            Email = email;
+            FullName = fullName;
+            Group = group;
         }
 
     }

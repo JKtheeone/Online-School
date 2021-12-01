@@ -9,18 +9,20 @@ namespace getone.Domains
 {
     public class Group
     {
-        public int GroupID { get; set; }
+        public int GroupId { get; set; }
 
         public int NumOfStu { get; set; }
 
         public string Speciality { get; set; }
 
+        public Group() { }
 
-        Group(int GroupID, int NumOfStu, string Speciality)
+
+        public Group(int groupId, int numOfStu, string speciality)
         {
-            this.GroupID = GroupID;
-            this.NumOfStu = NumOfStu;
-            this.Speciality = Speciality;
+            GroupId = groupId;
+            NumOfStu = numOfStu;
+            Speciality = speciality;
         }
 
     }

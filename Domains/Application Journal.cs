@@ -5,24 +5,26 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-    namespace getone.Domains
+    namespace Online-School.Domains
 {
-    public class Application_Journal
+    public class ApplicationJournal
     {
-        public int ReqID { get; set; }
+        public int ReqId { get; set; }
 
-        public int StudentID { get; set; }
+        public int StudentId { get; set; }
 
         public string Username { get; set; }
 
         public DateTime DateReq { get; set; }
 
-        Application_Journal(int ReqID, int StudentID, string Username, DateTime DateReq)
+        public ApplicationJournal() { }
+
+        public ApplicationJournal(int reqId, int studentId, string username, DateTime dateReq)
         {
-            this.ReqID = ReqID;
-            this.StudentID = StudentID;
-            this.Username = Username;
-            this.DateReq = DateReq;
+            ReqId = reqId;
+            StudentId = studentId;
+            Username = username;
+            DateReq = dateReq;
         }
         
     }
