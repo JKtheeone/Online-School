@@ -5,25 +5,34 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace getone.Domains
+namespace Course_materials.Controllers
 {
-    public class Coursematerials
+    [ApiController]
+    [Route("/Course_materials")]
+    public class Course_materialsController : ControllerBase
     {
-        public int MaterialId { get; set; }
-
-        public string Author { get; set; }
-
-        public string Type { get; set; }
-
-        public Coursematerials() { }
-
-
-        public Coursematerials(int materialId,string author,string type)
+        [HttpPost]
+        public string Create(string str)
         {
-            MaterialId = materialId;
-            Author = author;
-            Type = type;
+            return str;
         }
 
+        [HttpGet]
+        public string Read(string str)
+        {
+            return str;
+        }
+
+        [HttpPut]
+        public string Update(string str)
+        {
+            return str;
+        }
+
+        [HttpDelete]
+        public string Delete(string str)
+        {
+            return str;
+        }
     }
 }
