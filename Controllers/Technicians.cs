@@ -8,8 +8,8 @@ using Microsoft.Extensions.Logging;
 namespace getone.Controllers
 {
     [ApiController]
-    [Route("/Technicians")]
-    public class TechniciansController : ControllerBase
+    [Route("/Technician")]
+    public class TechnicianController : ControllerBase
     {
 
         [HttpPost("Websiteimprovement")]
@@ -28,24 +28,28 @@ namespace getone.Controllers
             return str;// Отладка системы по обработке заявок
         }
         [HttpPost]
-        public string Create(string str)
+        public Technician Create(Technician technician)
         {
-            return str;
+            Storage.TechnicianStorage.Create(technician)
+            return technician;
         }
+
         [HttpGet]
-        public string Read(string str)
+        public Technician Read(int workerId)
         {
-            return str;
+            return Storage.TechnicianStorage.Read(workerId);
         }
+
         [HttpPut]
-        public string Update(string str)
+        public Technician Update(int workerId, Technician newTechnician)
         {
-            return str;
+            return Storage.TechnicianStorage.Update(workerId, newTechnician);
         }
+
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int workerId)
         {
-            return str;
+            return Storage.TechnicianStorage.Delete(workerId);
         }
     }
 }

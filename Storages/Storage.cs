@@ -13,7 +13,7 @@ namespace getone.Storages
         public static StudentBaseStorage StudentBaseStorage { get; } = new StudentBaseStorage();
         public static StudentStorage StudentStorage { get; } = new StudentStorage();
         public static TeachersStorage TeachersStorage { get; } = new TeachersStorage();
-        public static TechiciansStorage TechiciansStorage { get; } = new TechiciansStorage();
+        public static TechicianStorage TechiciansStorage { get; } = new TechiciansStorage();
 
     }
 }

@@ -5,34 +5,35 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Application_Journal.Controllers
+namespace getone.Controllers
 {
     [ApiController]
-    [Route("/Application_Journal")]
-    public class Application_JournalController : ControllerBase
+    [Route("/ApplicationJournal")]
+    public class ApplicationJournalController : ControllerBase
     {
         [HttpPost]
-        public string Create(string str)
+        public ApplicationJournal Create(ApplicationJournal applicationJournal)
         {
-            return str;
+            Storage.ApplicationJournalStorage.Create(applicationJournal)
+            return applicationJournal;
         }
 
         [HttpGet]
-        public string Read(string str)
+        public ApplicationJournal Read(int reqId)
         {
-            return str;
+            return Storage.ApplicationJournalStorage.Read(reqId);
         }
 
         [HttpPut]
-        public string Update(string str)
+        public ApplicationJournal Update(int reqId, ApplicationJournal newApplicationJournal)
         {
-            return str;
+            return Storage.ApplicationJournalStorage.Update(reqId,newApplicationJournal);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int reqId)
         {
-            return str;
+            return Storage.ApplicationJournalStorage.Delete(reqId);
         }
     }
 }

@@ -5,31 +5,35 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Course.Controllers
+namespace getone.Controllers
 {
     [ApiController]
     [Route("/Course")]
     public class CourseController : ControllerBase
     {
         [HttpPost]
-        public string Create(string str)
+        public Course Create(Course course)
         {
-            return str;
+            Storage.CourseStorage.Create(course)
+            return course;
         }
+
         [HttpGet]
-        public string Read(string str)
+        public Course Read(int courseId)
         {
-            return str;
+            return Storage.CourseStorage.Read(courseId);
         }
+
         [HttpPut]
-        public string Update(string str)
+        public Course Update(int courseId, Course newCourse)
         {
-            return str;
+            return Storage.CourseStorage.Update(courseId, newCourse);
         }
+
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int courseId)
         {
-            return str;
+            return Storage.CourseStorage.Delete(courseId);
         }
     }
 }

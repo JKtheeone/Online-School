@@ -9,7 +9,7 @@ namespace getone.Controllers
 {
     [ApiController]
     [Route("/Headteacher")]
-    public class TeachersController : ControllerBase
+    public class HeadTeachersController : ControllerBase
     {
 
         [HttpPost("сoursecreation")]
@@ -33,23 +33,28 @@ namespace getone.Controllers
             return str;// добавление студентов на курс
         }
         [HttpPost]
-        public string Create(string str)
+        public Headteacher Create(Headteacher headteacher)
         {
-            return str;
+            Storage.HeadTeacherStorage.Create(headteacher)
+             return headteacher;
         }
+
         [HttpGet]
-        public string Read(string str)
+        public Headteacher Read(int hTeacherId)
         {
-            return str;
+            return Storage.HeadTeacherStorage.Read(hTeacherId);
         }
+
         [HttpPut]
-        public string Update(string str)
+        public Headteacher Update(int hTeacherId, Headteacher newHeadteacher)
         {
-            return str;
+            return Storage.HeadTeacherStorage.Update(hTeacherId, newHeadteacher);
         }
+
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int hTeacherId)
         {
-            return str;
+            return Storage.HeadTeacherStorage.Delete(hTeacherId);
         }
+    }
 }

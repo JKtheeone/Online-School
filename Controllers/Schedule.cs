@@ -5,31 +5,35 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Schedule.Controllers
+namespace getone.Controllers
 {
     [ApiController]
     [Route("/Schedule")]
-    public class Schedule : ControllerBase
+    public class ScheduleController : ControllerBase
     {
         [HttpPost]
-        public string Create(string str)
+        public Schedule Create(Schedule schedule)
         {
-            return str;
+            Storage.ScheduleStorage.Create(schedule)
+            return schedule;
         }
+
         [HttpGet]
-        public string Read(string str)
+        public Schedule Read(int scheduleId)
         {
-            return str;
+            return Storage.ScheduleStorage.Read(scheduleId);
         }
+
         [HttpPut]
-        public string Update(string str)
+        public Schedule Update(int scheduleId, Schedule newSchedule)
         {
-            return str;
+            return Storage.ScheduleStorage.Update(scheduleId, newSchedule);
         }
+
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int scheduleId)
         {
-            return str;
+            return Storage.ScheduleStorage.Delete(scheduleId);
         }
     }
 }

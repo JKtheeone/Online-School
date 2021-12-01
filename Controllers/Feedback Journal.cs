@@ -5,31 +5,35 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Feedback_Journal.Controllers
+namespace getone.Controllers
 {
     [ApiController]
-    [Route("/Feedback_Journal")]
-    public class Feedback_Journal : ControllerBase
+    [Route("/FeedbackJournal")]
+    public class FeedbackJournalController : ControllerBase
     {
         [HttpPost]
-        public string Create(string str)
+        public FeedbackJournal Create(FeedbackJournal feedbackJournal)
         {
-            return str;
+            Storage.FeedbackJournalStorage.Create(feedbackJournal)
+            return feedbackJournal;
         }
+
         [HttpGet]
-        public string Read(string str)
+        public FeedbackJournal Read(int revId)
         {
-            return str;
+            return Storage.FeedbackJournalStorage.Read(revId);
         }
+
         [HttpPut]
-        public string Update(string str)
+        public FeedbackJournal Update(int revId, FeedbackJournal newFeedbackJournal)
         {
-            return str;
+            return Storage.FeedbackJournalStorage.Update(revId, newFeedbackJournal);
         }
+
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int revId)
         {
-            return str;
+            return Storage.FeedbackJournalStorage.Delete(revId);
         }
     }
 }

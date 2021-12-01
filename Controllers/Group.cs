@@ -5,31 +5,35 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Group.Controllers
+namespace getone.Controllers
 {
     [ApiController]
     [Route("/Group")]
-    public class Group : ControllerBase
+    public class GroupController : ControllerBase
     {
         [HttpPost]
-        public string Create(string str)
+        public Group Create(Group group)
         {
-            return str;
+            Storage.GroupStorage.Create(group)
+            return group;
         }
+
         [HttpGet]
-        public string Read(string str)
+        public Group Read(int groupId)
         {
-            return str;
+            return Storage.GroupStorage.Read(groupId);
         }
+
         [HttpPut]
-        public string Update(string str)
+        public Group Update(int groupId, Group newGroup)
         {
-            return str;
+            return Storage.GroupStorage.Update(groupId, newGroup);
         }
+
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int groupId)
         {
-            return str;
+            return Storage.GroupStorage.Delete(groupId);
         }
     }
 }
