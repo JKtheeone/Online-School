@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-    namespace Online-School.Domains
+    namespace getone.Domains
 {
     public class ApplicationJournal
     {

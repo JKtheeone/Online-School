@@ -1,4 +1,4 @@
-namespace Online-School.Storages
+namespace getone.Storages
 {
     public static class Storage
     {

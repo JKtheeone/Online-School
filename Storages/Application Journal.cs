@@ -1,4 +1,4 @@
-using getone.Domains;
+using OnlineSchool.Domains;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
