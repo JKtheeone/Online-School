@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T16:34:44.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="GYcefVAW2cRRVC1-jDrk" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-01T19:25:57.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="zdBPKbv7VKIFHBeIs9Yr" version="15.8.8" type="github">
   <diagram id="3wXirlA94ClRfBBOiUxg" name="Page-1">
-    <mxGraphModel dx="1483" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1GQ2bCHYJ9LrjRl-KCbF-2" value="Students" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="1GQ2bCHYJ9LrjRl-KCbF-2" value="Student" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="380" y="120" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="1GQ2bCHYJ9LrjRl-KCbF-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1GQ2bCHYJ9LrjRl-KCbF-2" vertex="1">
@@ -510,7 +510,7 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3Udb4YVYtacq0rduN-3k-14" value="Материалы курса" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="3Udb4YVYtacq0rduN-3k-14" value="Course material" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="800" y="500" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="3Udb4YVYtacq0rduN-3k-15" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=default;strokeColor=default;" parent="3Udb4YVYtacq0rduN-3k-14" vertex="1">
