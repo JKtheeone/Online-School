@@ -4,16 +4,14 @@ using System.Data.SqlClient;
 
 namespace getone.Storages
 {
-    public class ApplicationJournal
+    public class ApplicationJournalStorage
     {
-        public class ApplicationJournalStorage
-        {
-          private Dictionary<int, ApplicationJournal>ApplicationJournals { get; } = new Dictionary<int, ApplicationJournal>();
+          private Dictionary<int, ApplicationJournal>ApplicationJournals { get; } = new();
 
 
         public void Create(ApplicationJournal applicationJournal)
         {
-            ApplicationJournals.Add(applicationJournal.ReqId, applicationJournal)
+            ApplicationJournals.Add(applicationJournal.ReqId, applicationJournal);
         }
 
         public ApplicationJournal Read(int reqId)
@@ -31,7 +29,6 @@ namespace getone.Storages
         {
             return ApplicationJournals.Remove(reqId);
         }
-    }
     }
 }
 

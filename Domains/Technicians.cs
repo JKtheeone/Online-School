@@ -11,7 +11,7 @@ namespace getone.Domains
     {
         public int WorkerId { get; set; }
 
-        publick string FullName { get; set }
+        public string FullName { get; set; }
 
         public Techician() { }
 
