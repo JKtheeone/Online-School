@@ -4,23 +4,21 @@ using System.Data.SqlClient;
 
 namespace getone.Storages
 {
-    public class Studnet
-    {
-        public class StudnetStorage
+        public class StudentStorage
         {
-            private Dictionary<int, Studnet> Studnets { get; } = new Dictionary<int, Studnet>();
+            private Dictionary<int, Student> Studnets { get; } = new Dictionary<int, Student>();
 
-            public void Create(Studnet studnet)
+            public void Create(Student studnet)
             {
-                Studnets.Add(studnet.StudentId, studnet)
+            Studnets.Add(studnet.StudentId, studnet);
             }
 
-            public Studnet Read(int studentId)
+            public Student Read(int studentId)
             {
                 return Studnets[studentId];
             }
 
-            public Studnet Update(int studentId, Studnet newStudnet)
+            public Student Update(int studentId, Student newStudnet)
             {
                 Studnets[studentId] = newStudnet;
                 return Studnets[studentId];
@@ -31,5 +29,4 @@ namespace getone.Storages
                 return Studnets.Remove(studentId);
             }
         }
-    }
 }

@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using getone.Domains;
+using getone.Storages;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace getone.Controllers
 {
@@ -25,26 +22,26 @@ namespace getone.Controllers
         [HttpPost]
         public Teacher Create(Teacher teacher)
         {
-            Storage.TeacherStorage.Create(teacher)
+            Storage.TeachersStorage.Create(teacher);
             return teacher;
         }
 
         [HttpGet]
         public Teacher Read(string fullName)
         {
-            return Storage.TeacherStorage.Read(fullName);
+            return Storage.TeachersStorage.Read(fullName);
         }
 
         [HttpPut]
         public Teacher Update(string fullName, Teacher newTeacher)
         {
-            return Storage.TeacherStorage.Update(fullName, newTeacher);
+            return Storage.TeachersStorage.Update(fullName, newTeacher);
         }
 
         [HttpDelete]
         public bool Delete(string fullName)
         {
-            return Storage.TeacherStorage.Delete(fullName);
+            return Storage.TeachersStorage.Delete(fullName);
         }
     }
 }

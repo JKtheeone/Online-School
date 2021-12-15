@@ -1,9 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using getone.Domains;
+using getone.Storages;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace getone.Controllers
 {
@@ -14,7 +11,7 @@ namespace getone.Controllers
         [HttpPost]
         public Schedule Create(Schedule schedule)
         {
-            Storage.ScheduleStorage.Create(schedule)
+            Storage.ScheduleStorage.Create(schedule);
             return schedule;
         }
 

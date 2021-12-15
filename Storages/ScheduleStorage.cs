@@ -4,15 +4,13 @@ using System.Data.SqlClient;
 
 namespace getone.Storages
 {
-    public class Schedule
-    {
         public class ScheduleStorage
         {
             private Dictionary<int, Schedule> Schedules { get; } = new Dictionary<int, Schedule>();
 
             public void Create(Schedule schedule)
             {
-                Schedules.Add(schedule.ScheduleId, schedule)
+                Schedules.Add(schedule.ScheduleId, schedule);
             }
 
             public Schedule Read(int scheduleId)
@@ -31,5 +29,5 @@ namespace getone.Storages
                 return Schedules.Remove(scheduleId);
             }
         }
-    }
+    
 }

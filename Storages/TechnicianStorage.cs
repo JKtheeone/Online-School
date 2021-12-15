@@ -4,24 +4,22 @@ using System.Data.SqlClient;
 
 namespace getone.Storages
 {
-    public class Technician
-    {
         public class TechnicianStorage
         {
-            private Dictionary<int, Technician> Technicians { get; } = new Dictionary<int, Technician>();
+            private Dictionary<int, Techician> Technicians { get; } = new Dictionary<int, Techician>();
 
 
-            public void Create(Technician technician)
+            public void Create(Techician technician)
             {
-                Technicians.Add(technician.WorkerId, technician)
+            Technicians.Add(technician.WorkerId, technician);
             }
 
-            public Technician Read(int workerId)
+            public Techician Read(int workerId)
             {
                 return Technicians[workerId];
             }
 
-            public Technician Update(int workerId, Technician newTechnician)
+            public Techician Update(int workerId, Techician newTechnician)
             {
                 Technicians[workerId] = newTechnician;
                 return Technicians[workerId];
@@ -32,5 +30,5 @@ namespace getone.Storages
                 return Technicians.Remove(workerId);
             }
         }
-    }
+    
 }

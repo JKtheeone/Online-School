@@ -4,15 +4,13 @@ using System.Data.SqlClient;
 
 namespace getone.Storages
 {
-    public class HeadTeacher
-    {
         public class HeadTeacherStorage
         {
             private Dictionary<int, HeadTeacher> HeadTeachers { get; } = new Dictionary<int, HeadTeacher>();
 
             public void Create(HeadTeacher headTeacher)
             {
-                HeadTeachers.Add(headTeacher.HTeacherID, headTeacher)
+                HeadTeachers.Add(headTeacher.HeadTeacherId, headTeacher);
             }
 
             public HeadTeacher Read(int hTeacherId)
@@ -31,5 +29,5 @@ namespace getone.Storages
                 return HeadTeachers.Remove(hTeacherId);
             }
         }
-    }
+    
 }

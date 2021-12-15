@@ -2,10 +2,9 @@ using getone.Domains;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
+
 namespace getone.Storages
 {
-    public class Teacher
-    {
         public class TeacherStorage
         {
             private Dictionary<string, Teacher> Teachers { get; } = new Dictionary<string, Teacher>();
@@ -13,7 +12,7 @@ namespace getone.Storages
 
             public void Create(Teacher teacher)
             {
-                Teachers.Add(teacher.FullName, teacher)
+                Teachers.Add(teacher.FullName, teacher);
             }
 
             public Teacher Read(string fullName)
@@ -32,5 +31,5 @@ namespace getone.Storages
                 return Teachers.Remove(fullName);
             }
         }
-    }
+    
 }

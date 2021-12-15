@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using getone.Domains;
+using getone.Storages;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace getone.Controllers
 {
@@ -33,20 +30,20 @@ namespace getone.Controllers
             return str;// добавление студентов на курс
         }
         [HttpPost]
-        public Headteacher Create(Headteacher headteacher)
+        public HeadTeacher Create(HeadTeacher headteacher)
         {
-            Storage.HeadTeacherStorage.Create(headteacher)
+            Storage.HeadTeacherStorage.Create(headteacher);
              return headteacher;
         }
 
         [HttpGet]
-        public Headteacher Read(int hTeacherId)
+        public HeadTeacher Read(int hTeacherId)
         {
             return Storage.HeadTeacherStorage.Read(hTeacherId);
         }
 
         [HttpPut]
-        public Headteacher Update(int hTeacherId, Headteacher newHeadteacher)
+        public HeadTeacher Update(int hTeacherId, HeadTeacher newHeadteacher)
         {
             return Storage.HeadTeacherStorage.Update(hTeacherId, newHeadteacher);
         }

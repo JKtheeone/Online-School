@@ -4,15 +4,13 @@ using System.Data.SqlClient;
 
 namespace getone.Storages
 {
-    public class FeedbackJournal
-    {
         public class FeedbackJournalStorage
         {
             private Dictionary<int, FeedbackJournal> FeedbackJournals { get; } = new Dictionary<int, FeedbackJournal>();
 
             public void Create(FeedbackJournal feedbackJournal)
             {
-                FeedbackJournals.Add(feedbackJournal.RevId, feedbackJournal)
+                FeedbackJournals.Add(feedbackJournal.RevId, feedbackJournal);
             }
 
             public FeedbackJournal Read(int revId)
@@ -31,5 +29,5 @@ namespace getone.Storages
                 return FeedbackJournals.Remove(revId);
             }
         }
-    }
+    
 }

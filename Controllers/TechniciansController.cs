@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using getone.Domains;
+using getone.Storages;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace getone.Controllers
 {
@@ -28,28 +25,28 @@ namespace getone.Controllers
             return str;// Отладка системы по обработке заявок
         }
         [HttpPost]
-        public Technician Create(Technician technician)
+        public Techician Create(Techician technician)
         {
-            Storage.TechnicianStorage.Create(technician)
+            Storage.TechiciansStorage.Create(technician);
             return technician;
         }
 
         [HttpGet]
-        public Technician Read(int workerId)
+        public Techician Read(int workerId)
         {
-            return Storage.TechnicianStorage.Read(workerId);
+            return Storage.TechiciansStorage.Read(workerId);
         }
 
         [HttpPut]
-        public Technician Update(int workerId, Technician newTechnician)
+        public Techician Update(int workerId, Techician newTechnician)
         {
-            return Storage.TechnicianStorage.Update(workerId, newTechnician);
+            return Storage.TechiciansStorage.Update(workerId, newTechnician);
         }
 
         [HttpDelete]
         public bool Delete(int workerId)
         {
-            return Storage.TechnicianStorage.Delete(workerId);
+            return Storage.TechiciansStorage.Delete(workerId);
         }
     }
 }

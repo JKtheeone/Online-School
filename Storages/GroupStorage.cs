@@ -4,15 +4,14 @@ using System.Data.SqlClient;
 
 namespace getone.Storages
 {
-    public class Group
-    {
+
         public class GroupStorage
         {
             private Dictionary<int, Group> Groups { get; } = new Dictionary<int, Group>();
 
             public void Create(Group group)
             {
-                Groups.Add(groupJournal.GroupId, groupJournal)
+                Groups.Add(group.GroupId, group);
             }
 
             public Group Read(int groupId)
@@ -31,5 +30,5 @@ namespace getone.Storages
                 return Groups.Remove(groupId);
             }
         }
-    }
+    
 }

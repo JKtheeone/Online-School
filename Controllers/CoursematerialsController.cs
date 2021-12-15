@@ -1,9 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using getone.Domains;
+using getone.Storages;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace getone.Controllers
 {
@@ -14,7 +11,7 @@ namespace getone.Controllers
         [HttpPost]
         public Coursematerial Create(Coursematerial coursematerial)
         {
-            Storage.CoursematerialStorage.Create(coursematerial)
+            Storage.CoursematerialStorage.Create(coursematerial);
             return coursematerial;
         }
 
@@ -25,7 +22,7 @@ namespace getone.Controllers
         }
 
         [HttpPut]
-        public Coursematerial Update(int reqId, Coursematerial newCoursematerial)
+        public Coursematerial Update(int materialId, Coursematerial newCoursematerial)
         {
             return Storage.CoursematerialStorage.Update(materialId, newCoursematerial);
         }
