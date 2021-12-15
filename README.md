@@ -276,6 +276,24 @@ namespace getone.Controllers
 <img src="https://user-images.githubusercontent.com/91196381/146263517-5f9d6d5e-29c1-4aeb-8a4d-123f70e7f6d7.png"></p>
 <p align="center">Рисунок 4 - Cтраница Swagger UI</p> 
 
+Далее на странице можем увидеть список доступных методов CRUD для сущности "обучающийся".(см. рисунок 5)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/91196381/146263983-8a93491b-7250-4287-ad17-de0d23f87c65.png"></p>
+<p align="center">Рисунок 5 - Методы CRUD</p> 
+
+Проверка метода Create(позволяет добавить новую запись).(см рисунок 6)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/91196381/146269927-15c6e250-5a43-45cd-9088-178671897f91.png"></p>
+<p align="center">Рисунок 6 - Метод Create</p> 
+
+Проверка метода Read(позволяет считывать уже созданные записи)(см рисунок 7,8)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/91196381/146266529-47e1fab6-b920-46c1-a6e4-b0568d97631f.png"></p>
+<p align="center">Рисунок 7 - Метод Read(окно ввода)</p> 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/91196381/146266235-e2e03688-b434-4322-9558-50d5091fbe71.png"></p>
+<p align="center">Рисунок 8 - Метод Read(окно значений)</p> 
+
 <a name="conclusion"/>
 
 ## Заключение
