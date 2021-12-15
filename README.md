@@ -281,12 +281,12 @@ namespace getone.Controllers
 <img src="https://user-images.githubusercontent.com/91196381/146263983-8a93491b-7250-4287-ad17-de0d23f87c65.png"></p>
 <p align="center">Рисунок 5 - Методы CRUD</p> 
 
-Проверка метода Create(позволяет добавить новую запись).(см рисунок 6)
+Проверка метода Create(позволяет добавить новую запись).(см. рисунок 6)
 <p align="center">
 <img src="https://user-images.githubusercontent.com/91196381/146269927-15c6e250-5a43-45cd-9088-178671897f91.png"></p>
 <p align="center">Рисунок 6 - Метод Create</p> 
 
-Проверка метода Read(позволяет считывать уже созданные записи)(см рисунок 7,8)
+Проверка метода Read(позволяет считывать уже созданные записи)(см. рисунок 7,8)
 <p align="center">
 <img src="https://user-images.githubusercontent.com/91196381/146266529-47e1fab6-b920-46c1-a6e4-b0568d97631f.png"></p>
 <p align="center">Рисунок 7 - Метод Read(окно ввода)</p> 
@@ -294,6 +294,17 @@ namespace getone.Controllers
 <img src="https://user-images.githubusercontent.com/91196381/146270139-2cc012f3-c2dc-4b06-8cb3-f46681d1943d.png"></p>
 <p align="center">Рисунок 8 - Метод Read(окно значений)</p> 
 
+Проверка метода Update(позволяет изменить уже записанные данные)(см. рисунок 9,10)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/91196381/146270852-d438a587-8657-483b-a658-96ea379b3f30.png"></p>
+<p align="center">Рисунок 9 - Метод Update(ввод новых данных)</p> 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/91196381/146271049-dada03ff-602a-44f6-8960-b4c576bb1096.png"></p>
+<p align="center">Рисунок 10 - Метод Update(обновленная информация)</p> 
+Далее проверяем записалась ли информация с помощью метода Read(см. рисунок 11)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/91196381/146271344-65b4fae1-ea30-4c42-ad62-e5989c6f9f43.png"></p>
+<p align="center">Рисунок 11 - Проверка значений</p> 
 <a name="conclusion"/>
 
 ## Заключение
