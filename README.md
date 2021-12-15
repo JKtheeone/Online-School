@@ -306,6 +306,19 @@ namespace getone.Controllers
 <img src="https://user-images.githubusercontent.com/91196381/146271344-65b4fae1-ea30-4c42-ad62-e5989c6f9f43.png"></p>
 <p align="center">Рисунок 11 - Проверка значений</p> 
 <a name="conclusion"/>
+Проверка метода Delete(удаление экземпляра),если успешно должен вернуть значение true(см. рисунок 12,13)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/91196381/146271767-4e8496ad-b9d7-49fb-928b-09c8a89131bb.png"></p>
+<p align="center">Рисунок 12 - Ввод номера экземпляра для удаления</p> 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/91196381/146271861-0b592576-6458-4f29-9b91-211d9e9cb084.png"></p>
+<p align="center">Рисунок 13 - Результат удаления</p> 
+Далее проверим осталась ли запись с помощью метода Read(см. рисунок 14)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/91196381/146272098-adba5347-e8a2-4112-af64-15cf40b55cb5.png"></p>
+<p align="center">Рисунок 14 - Проверка результата удаления</p> 
+Выдает ошибку, где программа сообщает о том что заданного индекса не обнаружено.
+
 
 ## Заключение
 
