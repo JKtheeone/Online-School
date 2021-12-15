@@ -115,6 +115,7 @@ Skillbox,основанная в 2016 году. На данный момент �
 ## 3.2 Этап реализации <a name="реализация"></a>
 
 На основании ER диаграммы создаем классы для каждой сущности.Ниже приведен пример создания класса Обучающийся.
+Листинг 1 - Класс "Студент"
 ~~~csharp
 namespace getone.Domains
 {
@@ -140,6 +141,81 @@ namespace getone.Domains
             PhoneNumber = phoneNumber;
             Group = group;
         }
+
+    }
+}
+~~~
+Листинг 2 - Класс "Преподаватель"
+~~~csharp
+namespace getone.Domains
+{
+    public class Teacher
+    {
+        public string FullName { get; set; }
+
+        public string Specification { get; set; }
+
+        public int TeacherId { get; set; }
+
+        public Teacher() { }
+
+
+        public Teacher(string fullName,string specification,int teacherId)
+        {
+            FullName = fullName;
+            Specification = specification;
+            TeacherId = teacherId;
+        }
+
+    }
+}
+~~~
+
+Затем создаем хранилище , где будут храниться экземпляры классов. Листинг 3 - хранилище для класса "Обучающийся".
+~~~
+public class StudentStorage
+        {
+            private Dictionary<int, Student> Studnets { get; } = new Dictionary<int, Student>();
+
+            public void Create(Student studnet)
+            {
+            Studnets.Add(studnet.StudentId, studnet);
+            }
+
+            public Student Read(int studentId)
+            {
+                return Studnets[studentId];
+            }
+
+            public Student Update(int studentId, Student newStudnet)
+            {
+                Studnets[studentId] = newStudnet;
+                return Studnets[studentId];
+            }
+
+            public bool Delete(int studentId)
+            {
+                return Studnets.Remove(studentId);
+            }
+        }
+~~~~
+Листинг 4 - общее хранилище.
+~~~csharp
+namespace getone.Storages
+{
+    public static class Storage
+    {
+        public static readonly ApplicationJournalStorage ApplicationJournalStorage = new();
+        public static  readonly CoursematerialStorage CoursematerialStorage = new();
+        public static  readonly CourseStorage CourseStorage = new();
+        public static  readonly EducationalPlanStorage EducationalPlanStorage = new();
+        public static  readonly FeedbackJournalStorage FeedbackJournalStorage = new();
+        public static  readonly GroupStorage GroupStorage = new();
+        public static  readonly HeadTeacherStorage HeadTeacherStorage = new();
+        public static  readonly ScheduleStorage ScheduleStorage = new();
+        public static readonly StudentStorage StudentStorage = new();
+        public static readonly TeacherStorage TeachersStorage = new();
+        public static readonly TechnicianStorage TechiciansStorage = new();
 
     }
 }
