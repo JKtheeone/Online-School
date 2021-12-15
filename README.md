@@ -224,8 +224,8 @@ namespace getone.Storages
 }
 ~~~
 
-Далее добавим набор web-методов,включая 4 базисные операции CRUD(create,delete,update,delete) для каждой сущности.Пример контроллера для класса "Обучающийся" - Листинг 5.
-~~~charp
+Далее создадим контроллер для каждой сущности и добавим набор web-методов,включая 4 базисные операции CRUD(create,delete,update,delete).Пример контроллера для класса "Обучающийся" - Листинг 5.
+~~~csharp
 namespace getone.Controllers
 {
     [ApiController]
