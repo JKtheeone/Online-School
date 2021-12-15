@@ -172,7 +172,7 @@ namespace getone.Domains
 ~~~
 
 Затем создаем хранилище , где будут храниться экземпляры классов. Листинг 3 - хранилище для класса "Обучающийся".
-~~~
+~~~csharp
 namespace getone.Storages
 {
         public class StudentStorage
