@@ -271,6 +271,10 @@ namespace getone.Controllers
 }
 ~~~
 ## 4 Проверка и тестирование системы
+После запуска программы открывается страница Swagger UI со списком сущностей и возможных операций.(см. рисунок 4)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/91196381/146263517-5f9d6d5e-29c1-4aeb-8a4d-123f70e7f6d7.png"></p>
+<p align="center">Рисунок 4 - Cтраница Swagger UI</p> 
 
 <a name="conclusion"/>
 
