@@ -291,7 +291,7 @@ namespace getone.Controllers
 <img src="https://user-images.githubusercontent.com/91196381/146266529-47e1fab6-b920-46c1-a6e4-b0568d97631f.png"></p>
 <p align="center">Рисунок 7 - Метод Read(окно ввода)</p> 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/91196381/146266235-e2e03688-b434-4322-9558-50d5091fbe71.png"></p>
+<img src="https://user-images.githubusercontent.com/91196381/146270139-2cc012f3-c2dc-4b06-8cb3-f46681d1943d.png"></p>
 <p align="center">Рисунок 8 - Метод Read(окно значений)</p> 
 
 <a name="conclusion"/>
