@@ -6,27 +6,27 @@ namespace getone.Storages
 {
         public class StudentStorage
         {
-            private Dictionary<int, Student> Studnets { get; } = new Dictionary<int, Student>();
+            private Dictionary<int, Student> Students { get; } = new Dictionary<int, Student>();
 
-            public void Create(Student studnet)
+            public void Create(Student student)
             {
-            Studnets.Add(studnet.StudentId, studnet);
+            Students.Add(student.StudentId, student);
             }
 
-            public Student Read(int studentId)
+            public  Student Read(int studentId)
             {
-                return Studnets[studentId];
+                return Students[studentId];
             }
 
             public Student Update(int studentId, Student newStudnet)
             {
-                Studnets[studentId] = newStudnet;
-                return Studnets[studentId];
+            Students[studentId] = newStudnet;
+                return Students[studentId];
             }
 
             public bool Delete(int studentId)
             {
-                return Studnets.Remove(studentId);
+                return Students.Remove(studentId);
             }
         }
 }
