@@ -114,6 +114,37 @@ Skillbox,основанная в 2016 году. На данный момент �
 
 ## 3.2 Этап реализации <a name="реализация"></a>
 
+На основании ER диаграммы создаем классы для каждой сущности.Ниже приведен пример создания класса Обучающийся
+~~~csharp
+namespace getone.Domains
+{
+    public class Student
+    {
+        public int StudentId { get; set; }
+
+        public string FullName { get; set; }
+
+        public string Email { get; set; }
+
+        public string PhoneNumber { get; set; }
+
+        public int Group { get; set; }
+
+        public Student() { }
+
+        public Student(int studentId,string fullName,string email,string phoneNumber,int group)
+        {
+            StudentId = studentId;
+            FullName = fullName;
+            Email = email;
+            PhoneNumber = phoneNumber;
+            Group = group;
+        }
+
+    }
+}
+~~~
+
 ## 4 Проверка и тестирование системы
 
 <a name="conclusion"/>
