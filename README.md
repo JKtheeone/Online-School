@@ -173,7 +173,9 @@ namespace getone.Domains
 
 Затем создаем хранилище , где будут храниться экземпляры классов. Листинг 3 - хранилище для класса "Обучающийся".
 ~~~
-public class StudentStorage
+namespace getone.Storages
+{
+        public class StudentStorage
         {
             private Dictionary<int, Student> Studnets { get; } = new Dictionary<int, Student>();
 
@@ -198,6 +200,7 @@ public class StudentStorage
                 return Studnets.Remove(studentId);
             }
         }
+}
 ~~~~
 Листинг 4 - общее хранилище.
 ~~~csharp
