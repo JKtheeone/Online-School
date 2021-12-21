@@ -372,4 +372,3 @@ namespace getone.Controllers
  
  4.Лекториум. lektoruim.tv [Электронный ресурс]. - Режим доступа: https://www.lektorium.tv/, свободный (дата обращения 16.12.2021)
  
-- 
